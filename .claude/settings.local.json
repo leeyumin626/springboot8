@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(./gradlew build *)",
-      "Bash(./gradlew compileJava *)"
+      "Bash(./gradlew compileJava *)",
+      "Bash(./gradlew bootRun)",
+      "Bash(kill %1)",
+      "Bash(wait %1)"
     ]
   }
 }
