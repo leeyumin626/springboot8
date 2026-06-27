@@ -18,5 +18,5 @@ springdoc:
     path: /api-docs
 
 jwt:
-  secret: this-is-very-long-secret-key-for-likelion-14th-session-test
+  secret:  ${JWT_SECRET}
   expiration: 86400000   # 24시간 (ms)
